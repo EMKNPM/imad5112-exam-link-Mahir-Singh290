@@ -1,1 +1,5 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/92arv5Vv)
+First screen is the cover screen
+
+2nd screen calculates the totals of each category
+
+3rd screen shows the arrays and the button to go back
