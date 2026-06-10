@@ -1,12 +1,22 @@
 package com.example.imad5112exam
 
 import android.os.Bundle
+import android.widget.Button
+import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
 class MainScreen : AppCompatActivity() {
+
+    //Declarations
+
+    private lateinit var btnGear1 : Button
+    private lateinit var btnGear2 : Button
+    private lateinit var btnGear3 : Button
+    private lateinit var tvTotalItems : TextView
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
