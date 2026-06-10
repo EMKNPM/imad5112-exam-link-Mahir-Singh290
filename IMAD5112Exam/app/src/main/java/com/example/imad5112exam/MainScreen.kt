@@ -16,6 +16,7 @@ class MainScreen : AppCompatActivity() {
     private lateinit var btnGear2 : Button
     private lateinit var btnGear3 : Button
     private lateinit var btnTotal: Button
+    private lateinit var btnDetailedScreen: Button
     private lateinit var tvTotalItems : TextView
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -28,6 +29,7 @@ class MainScreen : AppCompatActivity() {
         btnGear2 = findViewById(R.id.btnGear2)
         btnGear3 = findViewById(R.id.btnGear3)
         btnTotal = findViewById(R.id.btnTotal)
+        btnDetailedScreen = findViewById(R.id.btnDetailedScreen)
         tvTotalItems = findViewById(R.id.tvTotalItems)
 
 
