@@ -32,6 +32,72 @@ class Detailed_View_Screen : AppCompatActivity() {
         tvDetails = findViewById(R.id.tvDetails)
         btnBack = findViewById(R.id.btnBack)
 
+       btnDetails.setOnClickListener {
+
+           //variable that will store the final output
+           var displayText = "Items list:\n\n"
+
+           //loop through the array
+
+           for(i in 0 until Items.size){
+
+               //add each student name to displayText
+               displayText += Items[i] + "\n"
+           }
+           //Display the result (for example in the textview)
+           tvDetails.text = displayText
+
+           //variable that will store the final output
+           var displayCategory = "Category list list:\n\n"
+
+           //loop through the array
+
+           for(i in 0 until category.size){
+
+               //add each student name to displayText
+               displayCategory += category[i] + "\n"
+
+           }
+
+                tvDetails.text = displayCategory
+
+           //Display the result (for example in the textview)
+           tvDetails.text = displayText
+
+           //variable that will store the final output
+           var displayQuantity = "Quantity list list:\n\n"
+
+           //loop through the array
+
+           for(i in 0 until Quantity.size){
+
+               //add each student name to displayText
+               displayQuantity += Quantity[i] + "\n"
+
+           }
+
+           tvDetails.text = displayQuantity
+
+           //variable that will store the final output
+           var displayComments = "Quantity list list:\n\n"
+
+           //loop through the array
+
+           for(i in 0 until comments.size){
+
+               //add each student name to displayText
+               displayComments += comments[i] + "\n"
+
+           }
+
+           tvDetails.text = displayQuantity
+
+        btnBack.setOnClickListener {
+            finish()
+
+
+        }
+
 
 
 
@@ -47,4 +113,4 @@ class Detailed_View_Screen : AppCompatActivity() {
             insets
         }
     }
-}
+}}
