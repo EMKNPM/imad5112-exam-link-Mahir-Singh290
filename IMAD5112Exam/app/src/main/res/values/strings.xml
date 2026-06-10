@@ -3,4 +3,7 @@
     <string name="campsite_commander">Campsite Commander</string>
     <string name="main_screen">Main Screen</string>
     <string name="gear_screen">Gear Screen</string>
+    <string name="tent">Tent</string>
+    <string name="flashlight">Flashlight</string>
+    <string name="marshmallows">Marshmallows</string>
 </resources>
