@@ -16,6 +16,11 @@ class Detailed_View_Screen : AppCompatActivity() {
     private lateinit var tvDetails: TextView
     private lateinit var btnBack: Button
 
+    val Items = arrayOf("Tent", "Marshmallows", "Flashlight")
+    val category= arrayOf("Shelter", "Food", "Safety")
+    val Quantity= arrayOf("1", "3", "2")
+    val comments= arrayOf("4-person waterproof","For S'mores (Mega size)", "Check batteries (AA)")
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
@@ -26,6 +31,15 @@ class Detailed_View_Screen : AppCompatActivity() {
         btnDetails = findViewById(R.id.tvDetails)
         tvDetails = findViewById(R.id.tvDetails)
         btnBack = findViewById(R.id.btnBack)
+
+
+
+
+
+
+
+
+
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
