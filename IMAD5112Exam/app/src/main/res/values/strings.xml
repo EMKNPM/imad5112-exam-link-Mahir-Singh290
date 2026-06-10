@@ -6,4 +6,5 @@
     <string name="tent">Tent</string>
     <string name="flashlight">Flashlight</string>
     <string name="marshmallows">Marshmallows</string>
+    <string name="total_items_for_each_gear_will_display_here">Total items for each gear will display here</string>
 </resources>
