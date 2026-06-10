@@ -15,6 +15,7 @@ class MainScreen : AppCompatActivity() {
     private lateinit var btnGear1 : Button
     private lateinit var btnGear2 : Button
     private lateinit var btnGear3 : Button
+    private lateinit var btnTotal: Button
     private lateinit var tvTotalItems : TextView
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -26,6 +27,7 @@ class MainScreen : AppCompatActivity() {
         btnGear1 = findViewById(R.id.btnGear1)
         btnGear2 = findViewById(R.id.btnGear2)
         btnGear3 = findViewById(R.id.btnGear3)
+        btnTotal = findViewById(R.id.btnTotal)
         tvTotalItems = findViewById(R.id.tvTotalItems)
 
 
@@ -45,7 +47,6 @@ class MainScreen : AppCompatActivity() {
             tvTotalItems.text = "3 Flashlights"
         }
 
-        
 
 
 
