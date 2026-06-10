@@ -27,6 +27,28 @@ class MainScreen : AppCompatActivity() {
         btnGear2 = findViewById(R.id.btnGear2)
         btnGear3 = findViewById(R.id.btnGear3)
         tvTotalItems = findViewById(R.id.tvTotalItems)
+
+
+
+        btnGear1.setOnClickListener {
+
+            tvTotalItems.text = "1 Tent"
+        }
+
+        btnGear3.setOnClickListener {
+
+            tvTotalItems.text = "3 Marshmallows"
+        }
+
+        btnGear2.setOnClickListener {
+
+            tvTotalItems.text = "3 Flashlights"
+        }
+
+        
+
+
+
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)

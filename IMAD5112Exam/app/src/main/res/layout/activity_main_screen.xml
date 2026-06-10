@@ -82,4 +82,18 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.707" />
 
+    <Button
+        android:id="@+id/btnTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total"
+        android:textColor="@color/black"
+        android:backgroundTint="#4CAF50"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.601" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
