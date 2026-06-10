@@ -1,3 +1,5 @@
+// Student Number ST10514124
+//Full name: Mahir Singh
 package com.example.imad5112exam
 
 import android.os.Bundle
