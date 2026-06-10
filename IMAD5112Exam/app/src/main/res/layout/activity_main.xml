@@ -5,13 +5,18 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-android:background="@drawable/Campfire"
+android:background="@drawable/campfire"
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:id="@+id/tvTitle"
+        android:layout_width="271dp"
+        android:layout_height="33dp"
+        android:text="@string/campsite_commander"
+        android:textAlignment="center"
+        android:textColor="#FF0000"
+        android:textSize="25sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.473"
