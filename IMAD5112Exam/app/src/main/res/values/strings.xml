@@ -9,4 +9,9 @@
     <string name="total_items_for_each_gear_will_display_here">Total items for each gear will display here</string>
     <string name="detailed_view_screen">Detailed View Screen</string>
     <string name="total">Total</string>
+    <string name="the_list_of_items">The list of items</string>
+    <string name="full_list_of_gear_with_details">Full list of gear with details</string>
+    <string name="full_list_of_gear_and_details">Full list of gear and details</string>
+    <string name="back_to_base">Back to Base</string>
+    <string name="full_list_of_gear_and_details_will_appear_here">Full list of gear and details will appear here</string>
 </resources>

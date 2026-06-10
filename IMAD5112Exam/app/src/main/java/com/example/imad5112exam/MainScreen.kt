@@ -1,5 +1,6 @@
 package com.example.imad5112exam
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
@@ -60,6 +61,12 @@ class MainScreen : AppCompatActivity() {
             tvTotalItems.text = "Total Items: " + total.toInt()
 
 
+        }
+
+        btnDetailedScreen.setOnClickListener {
+
+            intent = Intent(this, Detailed_View_Screen::class.java)
+            startActivity(intent)
         }
 
 
