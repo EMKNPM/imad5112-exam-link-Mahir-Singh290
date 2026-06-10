@@ -47,7 +47,18 @@ class MainScreen : AppCompatActivity() {
             tvTotalItems.text = "3 Flashlights"
         }
 
+        btnTotal.setOnClickListener {
 
+            val Tents: Int = 1
+            val Marshmallows: Int = 3
+            val Flashlights: Int = 2
+
+            val total = Tents + Marshmallows + Flashlights
+
+            tvTotalItems.text = "Total Items: " + total.toInt()
+
+
+        }
 
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
